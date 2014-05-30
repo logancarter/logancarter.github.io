@@ -1,3 +1,15 @@
-#menu ul {
-	background: green;
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+ul li {
+	float:left;
+}
+ul li a {
+	display: block;
+	padding: 8px
+}
+ul li a:hover {
+	background: #ccc;
 }
