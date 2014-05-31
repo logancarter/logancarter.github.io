@@ -8,8 +8,4 @@ ul li {
 }
 ul li a {
 	display: block;
-	padding: 8px
-}
-ul li a:hover {
-	background: #ccc;
 }
