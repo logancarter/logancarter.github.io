@@ -9,3 +9,5 @@ ul li {
 ul li a {
 	display: block;
 }
+body {background-image:url("background.jpg");}
+p {background-image:url("writingbg.jpg");}
