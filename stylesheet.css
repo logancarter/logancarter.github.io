@@ -24,6 +24,7 @@ body {background-image:url("background.jpg");
 #feeds {
     margin:-4px 0px 0px 0px;
     padding:0px 0px 0px 58px;
+    background-image:url("feeds.jpg");
 }
 #header {
     margin:0px 0px -4px 0px;
