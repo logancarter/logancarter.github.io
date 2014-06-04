@@ -9,5 +9,25 @@ ul li {
 ul li a {
 	display: block;
 }
-body {background-image:url("background.jpg");}
-p {background-image:url("writingbg.jpg");}
+body {background-image:url("background.jpg");
+     background-attachment:fixed;}
+#container {
+    margin:25px 0px 0px 60px;
+}
+#menu {
+    margin:-4px 0px 0px 0px;
+}
+#content {
+    margin:-4px 0px 0px 0px;
+    text-align:center;
+}
+#feeds {
+    margin:-4px 0px 0px 0px;
+    padding:0px 0px 0px 58px;
+}
+#header {
+    margin:0px 0px -4px 0px;
+}
+#rightside {
+    margin:-40px 0px 0px 0px;
+}
