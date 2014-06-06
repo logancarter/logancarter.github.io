@@ -17,21 +17,25 @@ ul li a {
     position:fixed;
 }
 #aboutme {
-	margin:200px 0px 0px 0px;
+	margin:100% 0px 0px 0px;
 	padding:100px 0px 0px 0px;
 }
 
 #blog {
-	margin:200px 0px 0px 0px;
+	margin:100% 0px 0px 0px;
 	padding:100px 0px 0px 0px;
 }
 
 #resume {
-	margin:200px 0px 0px 0px;
+	margin:100% 0px 0px 0px;
 	padding:100px 0px 0px 0px;
 }
 
 #contact {
-	margin:200px 0px 0px 0px;
+	margin:100% 0px 0px 0px;
 	padding:100px 0px 0px 0px;
+}
+
+#container {
+	width:100%;
 }
