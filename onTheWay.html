@@ -16,7 +16,7 @@
     var directionsDisplay;
     var prevpolyline;
     var markers = [];
-    
+
     function initialize() {
       var center = new google.maps.LatLng(38.850033, -100.6500523);
       directionsDisplay = new google.maps.DirectionsRenderer();
@@ -46,8 +46,8 @@
       bounds = new google.maps.LatLngBounds(); 
       directionsDisplay.setMap(map);
       var request = { 
-        origin: document.getElementById('start').value,
-        destination: document.getElementById('end').value,
+        origin: document.getElementById("Origin").value,
+        destination: document.getElementById("Destination").value,
         travelMode: google.maps.DirectionsTravelMode.DRIVING 
       };
       polyline = new google.maps.Polyline({
@@ -91,16 +91,12 @@
     </style>
   </head>
       <div id="panel">
-    <b>Start: </b>
-    <select id="start">
-      <option value="Brisbane, ca">Brisbane, CA</option>
-      <option value="Truckee, Ca">Truckee, CA</option>
-    </select>
-    <b>End: </b>
-    <select id="end" onchange="calcRoute()">
-      <option value="berkeley, ca">berkeley</option>
-      <option value="san mateo, ca">San Mateo</option>
-    </select>
+      <form name="where" action="">
+      Origin: <input type="text" id="Origin" value="San Mateo, Ca"><br>
+      Destination: <input type="text" id="Destination" value="Truckee, Ca"><br>
+      What are you looking for along the way?: <input type="text" id="what" value="WalMart">
+      <input type="button" value="Submit" onclick="calcRoute()">
+      </form>
     </div>
   <body>
       <div id="map_canvas"></div>
