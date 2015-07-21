@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet2.css"></link>
+		<title> My Tumblr App</title>
+		<link rel="icon" type="image/ico" href="http://logancarter.github.io/favicon.ico"/>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var tumblr = require('tumblr.js');
+			var client = tumblr.createClient({
+  			consumer_key: '<consumer key>',
+  			consumer_secret: '<consumer secret>',
+  			token: '<oauth token>',
+  			token_secret: '<oauth token secret>'
+			});
+			var pic = api.tumblr.com/v2/blog/{alienspacedisco}/avatar[/40];
+		</script>
+	</body>
+</html>
